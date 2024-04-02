@@ -18,3 +18,33 @@
 	color: gold;
 	text-shadow: 1px 1px #c60;
 }
+
+/* Общее позиционирование */
+
+* {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img {
+	max-width: 100%;
+}
+html {
+	font-family: sans-serif;
+}
+
+.container {
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+/* Header */
