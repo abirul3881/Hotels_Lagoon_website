@@ -47,4 +47,30 @@ html {
 	padding-left: 15px;
 }
 
+body {
+	background-color: #e5e5e5;
+}
 /* Header */
+
+.header_information {
+	display: flex;
+	width: 1170px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.header_phone_link {
+	padding: 17px 0px 17px 40px;
+}
+.header_information_right {
+	display: flex;
+	margin-left: auto;
+}
+.header_icon_transition {
+	width: 25px;
+	height: 25px;
+	margin-top: 17px;
+	margin-right: 10px;
+}
+.header_link_transition {
+	margin-top: 20px;
+}
