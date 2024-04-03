@@ -74,3 +74,65 @@ body {
 .header_link_transition {
 	margin-top: 20px;
 }
+
+/* Nav */
+
+.header_navigation {
+	display: flex;
+	width: 1170px;
+	background-size: 100%;
+	background-color: white;
+	border-radius: 10px;
+}
+.header_navigation_list {
+	display: flex;
+}
+
+.header_navigation_item {
+	padding: 27px 25px 27px 45px;
+}
+.header_navigation_form_left button {
+	width: 107px;
+	height: 42px;
+	margin-top: 14px;
+	margin-right: 40px;
+	color: #cc9933;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid #cc9933;
+}
+.header_navigation_form_right button {
+	width: 177px;
+	height: 42px;
+	margin-top: 14px;
+	color: #cc9933;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid #cc9933;
+}
+
+/* Main section one */
+
+.main_section_one h2 {
+	margin: 70px 0px 20px 40px;
+}
+.main_cards {
+	width: 573px;
+	height: 258px;
+	background-image: url('/image/Rectangle\ 15.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius: 10px;
+}
+.text_cards {
+	width: 200px;
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+	padding: 40px 108px 0px 45px;
+}
+.text_cards_num {
+	color: white;
+	font-size: 20px;
+	padding-left: 45px;
+}
