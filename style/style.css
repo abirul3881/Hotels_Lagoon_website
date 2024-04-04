@@ -113,26 +113,65 @@ body {
 
 /* Main section one */
 
-.main_section_one h2 {
-	margin: 70px 0px 20px 40px;
+.main_section_header {
+	font-size: 40px;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	margin-left: 40px;
 }
-.main_cards {
+.main_list_cards {
+	display: flex;
+	width: 1170px;
+}
+.main_cards_one {
 	width: 573px;
-	height: 258px;
 	background-image: url('/image/Rectangle\ 15.png');
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	border-radius: 10px;
+	margin-right: 25px;
 }
-.text_cards {
-	width: 200px;
+.text_cards_one {
 	font-size: 40px;
-	color: white;
 	font-weight: bold;
-	padding: 40px 108px 0px 45px;
+	color: white;
+	width: 420px;
+	padding-left: 45px;
 }
 .text_cards_num {
-	color: white;
 	font-size: 20px;
+	color: white;
 	padding-left: 45px;
+}
+.block_link {
+	display: flex;
+	padding: 47px 0px 40px 45px;
+}
+.text_cards_link {
+	font-size: 16px;
+	color: #f0bf5f;
+}
+.text_cards_img {
+	margin-left: 5px;
+}
+.main_cards_two {
+	width: 573px;
+	background-image: url('/image/33\ 1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+}
+.text_cards_two {
+	width: 299px;
+	font-size: 60px;
+	font-weight: bold;
+	color: white;
+	padding: 0px 229px 50px 45px;
+}
+.main_cards_three {
+	width: 573px;
+	background-image: url('/image/Rectangle\ 15\ \(1\).png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
 }
