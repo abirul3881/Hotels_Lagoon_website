@@ -153,6 +153,7 @@ body {
 }
 .text_cards_img {
 	margin-left: 5px;
+	margin-bottom: -4px;
 }
 .main_cards_two {
 	width: 573px;
@@ -174,4 +175,60 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-radius: 10px;
+}
+
+/* Main information */
+
+.main_information {
+	width: 888px;
+	margin-top: 70px;
+}
+.main_information_header {
+	font-size: 40px;
+	margin-left: 40px;
+}
+.main_information_text {
+	font-size: 16px;
+}
+
+/* Main section two */
+
+.main-section_two {
+	width: 1170px;
+}
+.main_list_cards_two {
+	display: flex;
+	width: 1170px;
+}
+.main_cards_section_two:not(:last-child) {
+	width: 573px;
+	border-radius: 10px;
+	margin-top: 24px;
+	margin-right: 24px;
+	background-repeat: no-repeat;
+	background-color: white;
+}
+.main_cards_section_two {
+	width: 573px;
+	border-radius: 10px;
+	margin-top: 24px;
+
+	background-repeat: no-repeat;
+	background-color: white;
+}
+.block_main_section_two {
+	padding: 26px 126px 35px 45px;
+}
+
+.main_list_cards_duble {
+	display: flex;
+	width: 1170px;
+}
+.main_cards_two_text {
+	font-size: 20px;
+	color: #cc9933;
+}
+.main_cards_two_img {
+	margin-bottom: -4px;
+	margin-left: 10px;
 }
