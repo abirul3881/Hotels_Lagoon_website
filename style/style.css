@@ -5,8 +5,8 @@
 }
 .rating-result span {
 	padding: 0;
-	font-size: 32px;
-	margin: 0 3px;
+	font-size: 18px;
+	margin: 23px 0px 0px 3px;
 	line-height: 1;
 	color: lightgrey;
 	text-shadow: 1px 1px #bbb;
@@ -231,4 +231,108 @@ body {
 .main_cards_two_img {
 	margin-bottom: -4px;
 	margin-left: 10px;
+}
+
+/* Main section three */
+
+.block_main_section_three {
+	width: 1170px;
+}
+.main_list_cards_three {
+	display: flex;
+}
+.main_cards_section_three:not(:last-child) {
+	width: 276px;
+	margin-right: 24px;
+	margin-bottom: 24px;
+	background-color: white;
+	border-radius: 10px;
+}
+.main_cards_section_three {
+	width: 276px;
+
+	margin-bottom: 24px;
+	background-color: white;
+	border-radius: 10px;
+}
+.main-section_three_content {
+	padding: 40px 42px 32px 45px;
+	font-size: 16px;
+}
+.main_list_cards_double_three {
+	display: flex;
+}
+
+/* Main cards four */
+
+.main_cards_four {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.rating-result {
+	display: flex;
+	width: 370px;
+}
+.sale {
+	margin-left: 45px;
+	margin-right: 52px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.main_list_one {
+	display: flex;
+}
+.main_list_two {
+	display: flex;
+}
+.main_list_three {
+	display: flex;
+}
+.main_cards_four_item:not(:last-child) {
+	width: 374px;
+	background-color: white;
+	border-radius: 10px;
+	margin-bottom: 24px;
+	margin-right: 24px;
+}
+.main_cards_four_item {
+	width: 374px;
+	background-color: white;
+	border-radius: 10px;
+	margin-bottom: 24px;
+	margin-right: 24px;
+}
+.main_cards_btn button {
+	width: 107px;
+	height: 42px;
+	margin-top: 14px;
+	margin-right: 40px;
+	color: #cc9933;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid #cc9933;
+}
+.block_main_cards_four {
+	padding: 0px 138px 45px 45px;
+}
+.main_cards_four_item_selection {
+	/* width: 400px; */
+	border-radius: 10px;
+	background-image: url('/image/Group\ 37.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 24px;
+}
+.block_main_cards_foot {
+	padding: 390px 88px 27px 20px;
+}
+.main_cards_foot_link {
+	font-size: 20px;
+	color: white;
+}
+.main_cards_foot_img {
+	margin-bottom: -3px;
+	margin-left: 5px;
 }
