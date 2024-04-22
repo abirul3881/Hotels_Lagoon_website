@@ -336,3 +336,20 @@ body {
 	margin-bottom: -3px;
 	margin-left: 5px;
 }
+
+/* Form */
+
+.container_form {
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.container_form h2 {
+	font-size: 40px;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
+.form_list {
+	display: flex;
+}

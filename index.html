@@ -444,6 +444,90 @@
 					</ul>
 				</div>
 			</section>
+
+			<!--Form-->
+
+			<section class="main_section_form">
+				<div class="container_form">
+					<h2 class="main_section_header_form">Хочу тур</h2>
+					<form
+						action="https://jsonplaceholder.typicode.com/posts"
+						autocomplete
+						method="POST"
+						class="form"
+					>
+						<div class="form_list">
+							<label for="country"
+								>Страна
+								<p>
+									<select name="city" id="city">
+										<option value="city">Санкт - Питербург</option>
+										<option value="city">Москва</option>
+										<option value="city">Казань</option>
+										<option value="city">Сочи</option>
+										<option value="city">Минск</option>
+									</select>
+								</p></label
+							>
+
+							<label for="country"
+								>Страна
+								<p>
+									<select name="country" id="country">
+										<option value="city">ОАЭ</option>
+										<option value="city">Франция</option>
+										<option value="city">Италия</option>
+										<option value="city">Испания</option>
+										<option value="city">США</option>
+									</select>
+								</p></label
+							>
+
+							<label for="start"
+								>Дата прибытия
+								<p>
+									<input
+										type="date"
+										id="start"
+										name="trip-start"
+										value="2024-07-22"
+										min="2024-01-01"
+										max="2024-12-31"
+									/></p
+							></label>
+
+							<label for="number"
+								>Ночей
+								<p>
+									<input
+										type="number"
+										id="number"
+										size="3"
+										name="num"
+										min="1"
+										max="10"
+										value="1"
+									/></p
+							></label>
+
+							<label for="number_d"
+								>Дней
+								<p>
+									<input
+										type="number"
+										id="number_d"
+										size="3"
+										name="num"
+										min="1"
+										max="10"
+										value="1"
+									/></p
+							></label>
+							<button type="submit" class="btn_form">Найти</button>
+						</div>
+					</form>
+				</div>
+			</section>
 		</main>
 	</body>
 </html>
