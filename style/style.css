@@ -520,3 +520,8 @@ body {
 	margin-top: 30px;
 	margin-right: 15px;
 }
+.btn:hover {
+	background-color: aqua;
+	cursor: pointer;
+	box-shadow: 2px red;
+}
